@@ -23,7 +23,7 @@ El procedimiento completo para activar una instancia, comprobar las capacidades 
 
 Lee `AGENTS.md`. La definición y el estado del proyecto se encuentran en `docs/product-specs/index.md`.
 
-Las decisiones técnicas se registran en `docs/design-docs/index.md`. Los estados y autorizaciones de cada trabajo planificado se registran en su ExecPlan siguiendo `docs/PLANS.md`.
+Las decisiones técnicas se registran en `docs/design-docs/index.md`. Los estados y autorizaciones de cada trabajo planificado se registran en su ExecPlan siguiendo `docs/PLANS.md`; `docs/exec-plans/_template.md` ofrece el punto de partida mínimo.
 
 ## Configuración global y skills
 

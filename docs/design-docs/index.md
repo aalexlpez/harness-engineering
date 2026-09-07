@@ -13,7 +13,7 @@ Registrar las propuestas y decisiones técnicas duraderas que condicionan el pro
 
 Solo el responsable puede aprobar una decisión. Codex puede investigar, redactar propuestas y registrar el cambio de estado después de recibir una indicación explícita. La existencia de un documento o de una entrada en este índice no implica aprobación.
 
-Cada entrada debe indicar su estado y enlazar la documentación necesaria para comprender la decisión y su alcance. Solo se crea documentación separada cuando la decisión deba mantenerse como conocimiento del proyecto.
+Cada entrada debe indicar su estado y enlazar la documentación necesaria para comprender la decisión y su alcance. Todo cambio desde `Propuesta` debe registrar la fecha y el responsable que lo decidió. Solo se crea documentación separada cuando la decisión deba mantenerse como conocimiento del proyecto.
 
 ## Registro
 

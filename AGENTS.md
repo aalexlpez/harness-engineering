@@ -11,21 +11,24 @@ Este repositorio utiliza un harness de desarrollo controlado. Las instrucciones 
 * `ARCHITECTURE.md`: mapa de la arquitectura real y aprobada.
 * `docs/BOOTSTRAP.md`: procedimiento para activar una nueva instancia y preparar sus capacidades.
 * `docs/PLANS.md`: procedimiento de planificación y autorización.
-* `docs/exec-plans/active/`: planes que todavía no han sido aceptados.
-* `docs/exec-plans/completed/`: planes cuyo resultado ha sido aceptado.
+* `docs/exec-plans/_template.md`: estructura mínima para crear un ExecPlan sin duplicar sus reglas.
+* `docs/exec-plans/active/`: planes que todavía no han alcanzado un estado terminal.
+* `docs/exec-plans/completed/`: planes cerrados como `Aceptado` o `Cancelado`.
 * `docs/`: documentación específica que se consulta y completa solo cuando resulte aplicable.
 
 Consulta únicamente los documentos relevantes para la tarea. No cargues toda la documentación por defecto.
 
 ## Autoridad
 
-El responsable humano aprueba las decisiones técnicas, los cambios de alcance, los planes, la autorización para implementarlos, la aceptación de sus resultados y la activación de automatizaciones.
+El responsable humano aprueba las decisiones técnicas, los cambios de alcance, los planes, la autorización para implementarlos, la aceptación de sus resultados, su cancelación y la activación de automatizaciones.
 
 Una decisión técnica nueva es una elección duradera que establece o modifica el stack, la arquitectura, las dependencias relevantes, los contratos compartidos, la persistencia, la seguridad, el despliegue o los invariantes del proyecto. Los detalles locales y mecánicos cubiertos por decisiones existentes no son decisiones técnicas nuevas.
 
 Puedes investigar, comparar alternativas y recomendar soluciones. No adoptes una decisión técnica nueva sin aprobación, aunque sea de bajo impacto o reversible, si no está cubierta por una decisión o convención previamente aprobada.
 
 Una decisión solo está aprobada si figura expresamente con ese estado en `docs/design-docs/index.md`. Su mera presencia en la documentación no implica aprobación.
+
+Una indicación humana expresada en una conversación, issue u otro canal debe reflejarse en el artefacto correspondiente para convertirse en estado durable. El estado actual registrado en la definición, el índice de decisiones o el ExecPlan es la fuente canónica; la conversación y el historial Git son evidencia, no sustitutos.
 
 La autorización de un plan permite realizar sus pasos mecánicos dentro del alcance y las decisiones aprobadas. Si aparece una decisión pendiente o un cambio de alcance, detén el trabajo afectado y solicita aprobación. Puedes continuar con trabajo independiente ya autorizado.
 

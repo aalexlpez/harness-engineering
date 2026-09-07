@@ -3,6 +3,7 @@
 **Nombre:** Pendiente de definir.
 **Fase:** Definición.
 **Estado de la definición:** Borrador.
+**Responsable de aprobación:** Pendiente de definir.
 
 ## Propósito
 
