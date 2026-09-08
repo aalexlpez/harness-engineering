@@ -2,6 +2,8 @@
 
 Template reutilizable para iniciar y mantener proyectos de software con asistencia de Codex. No contiene un stack, una arquitectura ni funcionalidades de producto predeterminadas.
 
+Este README es una guía de entrada. Las fuentes canónicas y su precedencia se identifican en `AGENTS.md`.
+
 ## Cómo utilizarlo
 
 1. Copia el template a un nuevo repositorio.
@@ -23,7 +25,7 @@ El procedimiento completo para activar una instancia, comprobar las capacidades 
 
 Lee `AGENTS.md`. La definición y el estado del proyecto se encuentran en `docs/product-specs/index.md`.
 
-Las decisiones técnicas se registran en `docs/design-docs/index.md`. Los estados y autorizaciones de cada trabajo planificado se registran en su ExecPlan siguiendo `docs/PLANS.md`; `docs/exec-plans/_template.md` ofrece el punto de partida mínimo.
+Las decisiones técnicas del proyecto se registran en `docs/design-docs/index.md`; las decisiones heredadas sobre el funcionamiento del harness se conservan por separado en `docs/harness-decisions.md`. Los estados y autorizaciones de cada trabajo planificado se registran en su ExecPlan siguiendo `docs/PLANS.md`; `docs/exec-plans/_template.md` ofrece el punto de partida mínimo.
 
 ## Configuración global y skills
 
@@ -37,4 +39,4 @@ El template contempla el ciclo completo del proyecto, pero no activa automatizac
 
 ## Estado inicial
 
-El proyecto comienza en definición, sin stack, arquitectura, decisiones técnicas ni planes de implementación autorizados. Las decisiones se incorporan progresivamente a su propia documentación.
+El proyecto comienza en definición, sin stack, arquitectura, decisiones técnicas propias del producto ni planes de implementación autorizados. Hereda únicamente las reglas y decisiones de gobierno del harness. Las decisiones del producto se incorporan progresivamente a su propia documentación.

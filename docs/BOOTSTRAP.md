@@ -19,13 +19,13 @@ En la configuración prevista para este harness deben estar disponibles `fix-bug
 
 Completa progresivamente `docs/product-specs/index.md` con el propósito, los usuarios, el resultado esperado, el alcance, las restricciones y las cuestiones pendientes. Investiga antes de preguntar, pero no adoptes decisiones técnicas durante esta etapa.
 
-El responsable debe aprobar expresamente la definición y reflejarlo en su estado. Esa aprobación no aprueba decisiones técnicas, planes ni implementación.
+Aplica los criterios y registra la aprobación de la definición en `docs/product-specs/index.md`. Esa aprobación no aprueba decisiones técnicas, planes ni implementación.
 
 ## 3. Investigar y aprobar decisiones
 
-Identifica solo las decisiones técnicas necesarias para planificar el primer resultado útil. Según el proyecto pueden incluir stack, versiones, estructura, persistencia, dependencias relevantes, estrategia de pruebas, seguridad o despliegue.
+Identifica, conforme a los criterios de `docs/design-docs/index.md`, solo las decisiones técnicas necesarias para planificar el primer resultado útil. Según el proyecto pueden incluir stack, versiones, estructura, persistencia, dependencias relevantes, estrategia de pruebas, seguridad o despliegue.
 
-Registra las alternativas y su estado en `docs/design-docs/index.md`. Mantén cada decisión como `Propuesta` hasta que el responsable la apruebe expresamente. No anticipes decisiones que todavía no condicionen el trabajo.
+Registra allí las alternativas, el responsable y el estado. No anticipes decisiones que todavía no condicionen el trabajo.
 
 ## 4. Preparar el ExecPlan inicial
 
